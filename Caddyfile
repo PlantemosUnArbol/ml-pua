@@ -1,3 +1,6 @@
-http://216.238.82.228 {
+www.ai.plantemosunarbol.com {
+    redir https://ai.plantemosunarbol.com{uri}
+}
+https://ai.plantemosunarbol.com {
     reverse_proxy localhost:8000
 }
